@@ -1,0 +1,111 @@
+.login_main {
+  background-color: white;
+  width: 700px;
+  margin: auto;
+  height: 100%;
+}
+.login_middle {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.login_inputs {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px;
+}
+.login_language {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+}
+.login_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+}
+.login {
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.login_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_header h4 {
+  text-align: center;
+}
+.login_link div {
+  display: flex;
+  flex-direction: row;
+  border: 1px black solid;
+  padding: 5px;
+  margin: 30px;
+}
+.login_links p {
+  margin: 8px;
+  text-align: center;
+}
+.login_links {
+  width: 50%;
+  border-right: 1px solid black;
+}
+
+
+.login_input {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.login_input input {
+  padding: 10px;
+  width: 80%;
+  outline: none;
+  border: none;
+   background-color:#cccccc;
+}
+.login_buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.login_register{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.login_register input{
+    color: white;
+    background-color: rgb(58, 64, 153);
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+}
+#email{
+    text-align: center;
+}
+#email:hover{
+    background-color: #dddddd;
+    border-radius: 3px;
+    width:300px
+}
+.login_buttons input{
+    color: white;
+    background-color: rgb(39, 48, 173);
+    width: 75px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+}
