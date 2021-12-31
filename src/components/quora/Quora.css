@@ -1,0 +1,10 @@
+.quora{
+    margin: 0;
+    width: auto;
+    height: auto;
+    background-color:#bbbbbb ;
+}
+.quora_main{
+    display: flex;
+    flex-direction: row;
+}

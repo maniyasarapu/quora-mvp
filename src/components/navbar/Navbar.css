@@ -1,0 +1,80 @@
+.navbar_icons img{
+ height: 35px;
+ margin-right: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    background-color: white;
+    width:100%;
+    position: sticky;
+    z-index: 1000;
+    top:0;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+.navbar_icons{
+    display: flex;
+    margin-right: 20px;
+}
+.navbar_icon:hover{
+    color: #9b2825;
+    background-color:lightgray ;
+    border-radius: 20px;
+}
+.navbar_icon{
+    color: #cccccc;
+    padding: 5px 20px;
+}
+.navbar_search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #cccccc;
+    padding: 7px;
+    border-radius: 5px;
+
+}
+.navbar_search input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.navbar_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+}
+.navbar_avatar{
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.icon:hover{
+    color: #9b2825;
+    background-color:lightgray ;
+    border-radius: 20px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    width: 50px;
+}
+.navbar_try{
+  background-color: #f3ecec;
+  border-radius: 20px;
+}
+.navbar_add{
+    color: white;
+    margin-left: 25px;
+    text-transform: inherit;
+    background-color: #c04844;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.navbar_add button{
+    color: white;
+}

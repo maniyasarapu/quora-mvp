@@ -1,0 +1,26 @@
+.options{
+display: flex;
+flex-direction: column;
+margin: 30px 10px 0px 30px;
+background-color: antiquewhite;
+border-radius: 10px;
+}
+.option{
+display: flex;
+align-items: center;
+padding: 0px 10px 0px 10px;
+cursor: pointer;
+}
+.option img{
+    height: 30px;
+    border-radius: 10px;
+    width:30%
+}
+.option p{
+    margin-left: 7px;
+    color: grey;
+}
+.option:hover{
+    background-color: #cccccc;
+    border-radius: 10px;
+}

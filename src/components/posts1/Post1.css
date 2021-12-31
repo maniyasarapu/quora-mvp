@@ -1,0 +1,58 @@
+.post1_client_info{
+    display: flex;
+   align-items: center;
+   padding: 10px;
+}
+.post1_client_info h4{
+    margin-left: 10px;
+}
+.post1_client_info p{
+    margin-left: 10px;
+}
+.post1_client_details p{
+    color: #bbbbbb;
+    margin: 0px;
+
+}
+.post1_qst p{
+    width: 700px;
+}
+
+.post1{
+ display: flex;
+flex-direction: column;
+padding: 10px;
+border: 1px solid lightgray;
+background-color: white;
+border-radius: 5px;
+cursor: pointer;
+}
+.post_client{
+    display: flex;
+    flex-direction: column;
+}
+.post1_qst h2:hover{
+    text-decoration: underline;
+}
+.post1_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.post1_action{
+    background-color: lightgray;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.post1_up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.post1_mioddle{
+    display: flex;
+    flex-direction: row;
+}
